@@ -8,7 +8,7 @@ export default class Contents extends Component {
 
             <div className="topic">
                 <h4>{topic}</h4>
-               
+                
                 <div className="img-container">
                 <span className="back-btn"><img src="https://img.icons8.com/plasticine/100/000000/circled-chevron-left.png" /></span>
                 <span className="back-btn2"><img src="https://img.icons8.com/ios-glyphs/96/000000/circled-chevron-left.png" /></span>

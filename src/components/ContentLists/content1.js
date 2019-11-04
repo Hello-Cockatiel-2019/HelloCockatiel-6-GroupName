@@ -18,6 +18,9 @@ export default class ContentLists extends Component {
   box-shadow: 25px 30px 35px rgba(0, 0, 0, 0.25);
 `;
         return (
-            
+            <div>
+              
+            </div>
         );
     }
+  }

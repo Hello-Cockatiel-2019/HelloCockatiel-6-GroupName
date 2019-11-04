@@ -59,3 +59,14 @@ cursor: pointer;
        opacity: 0;
        cursor: pointer;
    }
+
+   .con-container{
+    position: relative;
+   }
+.con-container:hover .content-btn{
+    opacity:0;
+    }
+
+.con-container:hover .content-btn2{
+opacity:1;
+}
