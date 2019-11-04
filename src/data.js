@@ -1,4 +1,12 @@
 
+const Wrapper = styled.section`
+padding: ;
+margin: 25px 50px 75px 100px;
+background:#FFFFFF;
+border: 3px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 25px 30px 35px rgba(0, 0, 0, 0.25);
+`;
 export const leoparddata = [{
     id: 1,
     topic: "ลักษณะ",
