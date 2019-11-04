@@ -16,6 +16,7 @@ margin: auto;
 }
 .img-container{
     position: relative;
+    display: inline-block;
    }
 .img-container:hover .back-btn{
     opacity:0;
@@ -50,23 +51,154 @@ cursor: pointer;
     top: 10rem;
     opacity: 0;
     cursor: pointer;
-   }
-   .next-btn2{
+}
+.next-btn2{
        position: absolute;
        display: block;
        bottom: 10rem;
        right: 2%;
        opacity: 0;
        cursor: pointer;
-   }
+}
 
-   .con-container{
+
+.con2-container{
     position: relative;
-   }
-.con-container:hover .content-btn{
+    
+}
+.con2-container:hover .content2-btn{
     opacity:0;
-    }
-
-.con-container:hover .content-btn2{
-opacity:1;
+}
+.con2-container:hover .content2-btn2{
+    opacity:1;
+}
+.content2-btn{
+    position: absolute;
+    display: block;
+    top: 15rem;
+    opacity: '1';
+    cursor: pointer;
+}
+.content2-btn2{
+    position: absolute;
+    display: block;
+    top: 15rem;
+    opacity: 0;
+    cursor: pointer;
+}
+.con3-container{
+    position: relative;
+}
+.con3-container:hover .content3-btn{
+    opacity:0;
+}
+.con3-container:hover .content3-btn2{
+    opacity:1;
+}
+.content3-btn{
+    position: absolute;
+    display: block;
+    top: 20rem;
+    opacity: '1';
+    cursor: pointer;
+}
+.content3-btn2{
+    position: absolute;
+    display: block;
+    top: 20rem;
+    opacity: 0;
+    cursor: pointer;
+}
+.con-container{
+    position: relative;
+    
+}
+.con-container:hover .content1-btn{
+    opacity:0;
+}
+.con-container:hover .content1-btn2{
+    opacity:1;
+}
+.content1-btn{
+    position: absolute;
+    display: block;
+    top: 10rem;
+    opacity: '1';
+    cursor: pointer;
+}
+.content1-btn2{
+    position: absolute;
+    display: block;
+    top: 10rem;
+    opacity: 0;
+    cursor: pointer;
+}
+.con4-container{
+    position: relative;
+}
+.con4-container:hover .content4-btn{
+    opacity:0;
+}
+.con4-container:hover .content4-btn2{
+    opacity:1;
+}
+.content4-btn{
+    position: absolute;
+    display: block;
+    top: 25rem;
+    opacity: '1';
+    cursor: pointer;
+}
+.content4-btn2{
+    position: absolute;
+    display: block;
+    top: 25rem;
+    opacity: 0;
+    cursor: pointer;
+}
+.con5-container{
+    position: relative;
+}
+.con5-container:hover .content5-btn{
+    opacity:0;
+}
+.con5-container:hover .content5-btn2{
+    opacity:1;
+}
+.content5-btn{
+    position: absolute;
+    display: block;
+    top: 30rem;
+    opacity: '1';
+    cursor: pointer;
+}
+.content5-btn2{
+    position: absolute;
+    display: block;
+    top: 30rem;
+    opacity: 0;
+    cursor: pointer;
+}
+.con6-container{
+    position: relative;
+}
+.con6-container:hover .content6-btn{
+    opacity:0;
+}
+.con6-container:hover .content6-btn2{
+    opacity:1;
+}
+.content6-btn{
+    position: absolute;
+    display: block;
+    top: 35rem;
+    opacity: '1';
+    cursor: pointer;
+}
+.content6-btn2{
+    position: absolute;
+    display: block;
+    top: 35rem;
+    opacity: 0;
+    cursor: pointer;
 }
