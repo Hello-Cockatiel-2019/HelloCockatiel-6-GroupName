@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-
 export default class Contents extends Component {
 
     render() {
         const { topic, img, detail } = this.props.content;
         console.log(this.props.content);
         return (
+
             <div className="topic">
                 <h4>{topic}</h4>
                

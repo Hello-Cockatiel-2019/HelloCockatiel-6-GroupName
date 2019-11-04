@@ -1,16 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import ContentLists from './components/ContentLists/';
 import './style.css';
-function App() {
+import Frame from './components/Frame/';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Jumbotron, Container } from 'reactstrap';
+
+const Example = (props) => {
   return (
-    <div className="App">
-       {/* Leopard */}
-      <h1>เสือรู้สึกเเย่ เสือเสียใจ เสือจะร้องไห้ เพราะเสือdown</h1> 
-       <ContentLists/>
+    <div>
+      <Jumbotron fluid>
+        <Container fluid>
+          <center>
+          <img src="/static/images/bg.jpg" alt="bg" width="1152px" height="678px" left="134px" top="173px" />
+          </center>
+          <ContentLists/>
+        </Container>
+      </Jumbotron>
     </div>
   );
-}
+};
 
-export default App;
+export default Example;
