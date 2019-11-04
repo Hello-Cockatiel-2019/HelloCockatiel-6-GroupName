@@ -8,16 +8,17 @@ export default class ContentLists extends Component {
         contents: leoparddata
     }
     render() {
+        const Bg = styled.div`
+        @import url('https://fonts.googleapis.com/css?family=Niramit&display=swap');
+font-family: 'Niramit', sans-serif;
+font-size: 20px;
+color: #A38166;
+`;
 
         const { contents } = this.state;
-        const Title = styled.h1`
-  font-size: 20px;
-  text-align: left;
-  color: #A38166;
-`;
         const Wrapper = styled.section`
   padding: 4em;
-  margin:margin: 25px 50px 75px 100px;
+  margin: 25px 50px 75px 100px;
   background:#FFFFFF;
   border: 3px solid #FFFFFF;
   box-sizing: border-box;
@@ -26,11 +27,12 @@ export default class ContentLists extends Component {
 
         return (
             <Wrapper>
-                <Title>
+                <Bg>
+
                     <div className="contentList">{contents.map(content => (
                         <Contents key={content.id} content={content} />
                     ))} </div>
-                </Title>
+                </Bg>
             </Wrapper>
 
         );
