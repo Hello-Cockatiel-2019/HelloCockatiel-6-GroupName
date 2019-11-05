@@ -3,7 +3,7 @@ import Indexbutton from "../Buttons/Indexbutton";
 export default class Topic4 extends Component {
     render() {
         return (
-            <div className="page4">
+            <div className="page5">
                 <div class="container-fluid">
                     <h4> ลักษณะนิสัย</h4>
                     <div class="row">

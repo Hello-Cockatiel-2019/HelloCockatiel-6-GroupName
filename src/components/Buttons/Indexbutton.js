@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-export default class Indexbutton extends Component {
+import styled from 'styled-components';
+export default class Buttons extends Component {
 
     render() {
 
         return (
-
             <div>
                 
                 
@@ -13,8 +13,9 @@ export default class Indexbutton extends Component {
                 <span className="next-btn2"><img src="/static/images/arrow2.png" width="64em" height="64em"/></span>
                 </div>
 
-                
-                </div>
+                   
+
+        </div>
                 );
             }
 }
