@@ -17,23 +17,35 @@ margin: auto;
 .img-container{
     position: relative;
    }
-.img-container:hover .back-btn{
-    opacity:0;
-    }
-.img-container:hover .next-btn{
-    opacity:0;
-    }
-.img-container:hover .back-btn2{
-opacity:1;
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
 }
-.img-container:hover .next-btn2{
+/* .img-container:hover.overlay.back-btn{
+    opacity:0;
+    } */
+.img-container:hover.overlay.next-btn{
+    opacity:0;
+    }
+/* .img-container:hover.back-btn2{
+opacity:1;
+}*/
+.img-container:hover.next-btn2{
 opacity:1;
 }
 .back-btn{
  position: absolute;
  display: block;
 top: 10rem;
-opacity: '1';
+/* opacity: 1; */
 cursor: pointer;
 }
 .next-btn{
@@ -41,22 +53,22 @@ cursor: pointer;
     display: block;
    bottom: 10rem;
    right: 2%;
-    opacity: 1;
+    /* opacity: 1; */
     cursor: pointer;
 }
-.back-btn2{
+ /* .back-btn2{
     position: absolute;
     display: block;
     top: 10rem;
-    opacity: 0;
+    opacity: 1;
     cursor: pointer;
-   }
+   } */
    .next-btn2{
        position: absolute;
        display: block;
        bottom: 10rem;
        right: 2%;
-       opacity: 0;
+       opacity: 1;
        cursor: pointer;
    }
 
@@ -69,4 +81,59 @@ cursor: pointer;
 
 .con-container:hover .content-btn2{
 opacity:1;
+}
+
+.text{
+    text-align: center;
+    padding:6rem ;
+}
+.page1{
+    margin: 0px;
+    padding: 100px;
+    background-image: url("/static/images/b01.jpg");
+    background-color: burlywood;
+}
+.page2{
+    margin: 0px;
+    padding: 100px;
+   
+    background-image: url("/static/images/b02.jpg");
+    background-color: burlywood;
+}
+    .page3{
+    margin: 0px;
+    padding: 100px;
+    
+    background-image: url("/static/images/b03.jpg");
+    background-color: burlywood;
+}
+.page4{
+    margin: 0px;
+    padding: 100px;
+
+    background-image: url("/static/images/b04.jpg");
+    background-color: burlywood;
+}
+.home{
+    margin: 0px;
+    padding: 100px;
+    
+    background-image: url("/static/images/bg.jpg");
+    background-color: burlywood;
+}
+.contbtn{
+    position: absolute;
+    display: block;
+   bottom: 10rem;
+   right: 2%;
+    /* opacity: 1; */
+    cursor: pointer
+}
+.contbtn2{
+    position: absolute;
+    display: block;
+   bottom: 10rem;
+   right: 2%;
+    /* opacity: 1; */
+    cursor: pointer
 }
