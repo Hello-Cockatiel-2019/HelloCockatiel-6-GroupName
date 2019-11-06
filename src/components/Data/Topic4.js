@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Indexbutton from "../Buttons/Indexbutton";
+import Pic4 from '../Data/Pic4';
 export default class Topic4 extends Component {
     render() {
         return (
@@ -8,8 +8,10 @@ export default class Topic4 extends Component {
                 <div class="container-fluid">
                     <h4> ลักษณะนิสัย</h4>
                     <div class="row">
-                        <div class="col-xl-6" ><div className="img-container">
-                            <img src="https://img.icons8.com/ios-glyphs/30/000000/peace-symbol.png" /><Indexbutton /></div></div>
+                        <div class="col-xl-6" ><
+                            div className="img-container">
+                            <Pic4 /></div>
+                            </div>
                         <div class="col-xl-6" ><div className="text"> <p>เสือดาวเป็นสัตว์ที่รักสันโดษ จะอยู่รวมเป็นกลุ่มเฉพาะ ช่วงดูแลลูกเท่านั้น เสือดาวชอบอาศัยอยู่ป่าทุ่งและเขตป่าละเมาะ< br />
                             เพราะจะมีสัตว์ขนาดกลางที่เป็นอาหารของมันมากกว่าในเขตป่าทึบ เสือดาวชอบล่าเหยื่อโดยการหมอบรอเหยื่อบนต้นไม้
          เมื่อเหยื่อเข้ามาใกล้พอ ได้จังหวะ มันจะกระโดดลงไปบนหลังเหยื่อและกัดที่หลอดลมจนเหยื่อขาดใจตาย < br />

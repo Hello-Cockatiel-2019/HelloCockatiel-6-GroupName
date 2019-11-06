@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Home from './components/Data/Home';
@@ -27,7 +26,7 @@ function App() {
     </div>
        
        
-       {/* <Indexbuttons/> */}
+     
        
     </div>
   );
