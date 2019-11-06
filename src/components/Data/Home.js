@@ -15,6 +15,7 @@ const Nameweb = styled.div`
 export default class Home extends Component {
     render() {
         return (
+            <a id="top">
             <div className="page1">
             <div className="home">
                 <div className="container">
@@ -31,6 +32,7 @@ export default class Home extends Component {
                 </div>
             </div>
             </div>
+            </a>
         )
     }
 
