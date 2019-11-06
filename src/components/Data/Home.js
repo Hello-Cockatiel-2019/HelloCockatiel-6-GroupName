@@ -1,6 +1,10 @@
 import React, { Component } from "react";
-
+import {css } from 'styled-components'
 import Homebutton from '../Buttons/Homebutton';
+const boximg = css `
+background:url("/static/images/B01.jpg") repeat;
+background-size:contain;
+`
 export default class Home extends Component {
     render() {
         return (
