@@ -7,6 +7,7 @@ import Carousel from 'react-bootstrap/Carousel'
 export default class Pic4 extends Component {
         render(){
         return (
+          
           <Container >
             <Row className="justify-content-md-center">
               <Col md="auto">
@@ -35,6 +36,7 @@ export default class Pic4 extends Component {
               </Col>
             </Row>
           </Container>
+          
         )
       }
     }

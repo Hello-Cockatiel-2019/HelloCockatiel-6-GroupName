@@ -18,70 +18,6 @@ margin: auto;
     position: relative;
     display: inline-block;
    }
-/*.overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-}
-/* .img-container:hover.overlay.back-btn{
-    opacity:0;
-    } 
-.img-container:hover.overlay.next-btn{
-    opacity:0;
-    }*/
-/* .img-container:hover.back-btn2{
-opacity:1;
-}*/
-/*.img-container:hover.next-btn2{
-opacity:1;
-}
-.back-btn{
- position: absolute;
- display: block;
-top: 10rem;
-/* opacity: 1; 
-cursor: pointer;
-}
-.next-btn{
-    position: absolute;
-    display: block;
-   bottom: 10rem;
-   right: 2%;
-    /* opacity: 1; 
-    cursor: pointer;
-}*/
- /* .back-btn2{
-    position: absolute;
-    display: block;
-    top: 10rem;
-    opacity: 1;
-    cursor: pointer;
-   } */
-/*.next-btn2{
-       position: absolute;
-       display: block;
-       bottom: 10rem;
-       right: 2%;
-       opacity: 1;
-       cursor: pointer;
-}
-
-
-.con2-container{
-    position: relative;
-    
-}
-.con2-container:hover .content2-btn{
-    opacity:0;
-    }*/
-
 .con-container:hover .content-btn2{
 opacity:1;
 }
@@ -97,6 +33,10 @@ opacity:1;
     /* width: '1152px';
     height: '678px'; */
     background-color: burlywood;
+    @import url('https://fonts.googleapis.com/css?family=Niramit:500&display=swap');
+    font-family: 'Niramit', sans-serif;
+    font-size: 16px;
+    
 }
 .page2{
     margin: 0px;
@@ -104,6 +44,9 @@ opacity:1;
     /* width: '1152px';
     height: '678px'; */
     background-image: url("/static/images/B02.jpg");
+    @import url('https://fonts.googleapis.com/css?family=Niramit:500&display=swap');
+    font-family: 'Niramit', sans-serif;
+    font-size: 16px;
 }
 .page3{
     margin: 0px;
@@ -111,18 +54,27 @@ opacity:1;
     /* width: '1152px';
     height: '678px'; */
     background-image: url("/static/images/B03.jpg");
+    @import url('https://fonts.googleapis.com/css?family=Niramit:500&display=swap');
+    font-family: 'Niramit', sans-serif;
+    font-size: 16px;
 }
 .page4{
     margin: 0px;
     padding: 100px;
     background-image: url("/static/images/B04.jpg");
     background-color: burlywood;
+    @import url('https://fonts.googleapis.com/css?family=Niramit:500&display=swap');
+    font-family: 'Niramit', sans-serif;
+    font-size: 16px;
 }
 .page5{
     margin: 0px;
     padding: 100px;
     background-image: url("/static/images/B05.jpg");
     background-color: burlywood;
+    @import url('https://fonts.googleapis.com/css?family=Niramit:500&display=swap');
+    font-family: 'Niramit', sans-serif;
+    font-size: 16px;
 }
 
 .home{
@@ -138,157 +90,6 @@ opacity:1;
     border:'3px' solid#000000;
     border-radius: 50px;
 }
-/*.contbtn{
-    position: absolute;
-    display: block;
-   bottom: 10rem;
-   right: 2%;
-       opacity: 1; 
-    cursor: pointer
-}
-.contbtn2{
-    position: absolute;
-    display: block;
-   bottom: 10rem;
-   right: 2%;
-     opacity: 1; 
-    cursor: pointer
-} 
-
-.con2-container:hover .content2-btn2{
-    opacity:1;
-}
-.content2-btn{
-    position: absolute;
-    display: block;
-    top: 15rem;
-    opacity: '1';
-    cursor: pointer;
-}
-.content2-btn2{
-    position: absolute;
-    display: block;
-    top: 15rem;
-    opacity: '0';
-    cursor: pointer;
-}
-.con3-container{
-    position: relative;
-}
-.con3-container:hover .content3-btn{
-    opacity:0;
-}
-.con3-container:hover .content3-btn2{
-    opacity:1;
-}
-.content3-btn{
-    position: absolute;
-    display: block;
-    top: 20rem;
-    opacity: '1';
-    cursor: pointer;
-}
-.content3-btn2{
-    position: absolute;
-    display: block;
-    top: 20rem;
-    opacity: '0';
-    cursor: pointer;
-}
-.con-container{
-    margin: '-100px';
-    position: relative;
-    
-}*/
-/*.con-container:hover .content1-btn{
-    opacity:'0';
-}
-.con-container:hover .content1-btn2{
-    opacity:'1';
-}
-.content1-btn{
-    position: absolute;
-    display: block;
-    top: 10rem;
-    opacity: '1';
-    cursor: pointer;
-}
-.content1-btn2{
-    position: absolute;
-    display: block;
-    top: 10rem;
-    opacity:'0';
-    cursor: pointer;
-}
-.con4-container{
-    position: relative;
-}
-.con4-container:hover .content4-btn{
-    opacity:'0';
-}
-.con4-container:hover .content4-btn2{
-    opacity:'1';
-}
-.content4-btn{
-    position: absolute;
-    display: block;
-    top: 25rem;
-    opacity: '1';
-    cursor: pointer;
-}
-.content4-btn2{
-    position: absolute;
-    display: block;
-    top: 25rem;
-    opacity: '0';
-    cursor: pointer;
-}
-.con5-container{
-    position: relative;
-}
-.con5-container:hover .content5-btn{
-    opacity:'0';
-}
-.con5-container:hover .content5-btn2{
-    opacity:'1';
-}
-.content5-btn{
-    position: absolute;
-    display: block;
-    top: 30rem;
-    opacity: '1';
-    cursor: pointer;
-}
-.content5-btn2{
-    position: absolute;
-    display: block;
-    top: 30rem;
-    opacity: '0';
-    cursor: pointer;
-}
-.con6-container{
-    position: relative;
-}
-.con6-container:hover .content6-btn{
-    opacity:'0';
-}
-.con6-container:hover .content6-btn2{
-    opacity:'1';
-}
-.content6-btn{
-    position: absolute;
-    display: block;
-    top: 35rem;
-    opacity: '1';
-    cursor: pointer;
-}
-.content6-btn2{
-    position: absolute;
-    display: block;
-    top: 35rem;
-    opacity: '0';
-    cursor: pointer;
-}*/
 .mySlides {display:none;}
 
 .button {
