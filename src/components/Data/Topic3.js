@@ -4,6 +4,7 @@ export default class Topic3 extends Component {
     render() {
         return (
             <div className="page4">
+                <div className="BoxTop3">
                 <div class="container-fluid">
                     <h4>อาหาร</h4>
                     <div class="row">
@@ -13,6 +14,7 @@ export default class Topic3 extends Component {
                             พฤติกรรมการกิน สามารถขึ้นล่าเหยื่อบนต้นไม้ หรือ ลากเหยื่อไปกิน บนต้นไม้เพื่อหลีกหนีจากศัตรูได้</p></div></div>
                     </div>
                 </div>
+             </div>
              </div>
             )
             }
