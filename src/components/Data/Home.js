@@ -7,7 +7,9 @@ background:url("/static/images/B01.jpg") repeat;
 background-size:contain;
 `
 const Nameweb = styled.div`
-    padding-top:8em;
+    padding-top:1em;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) rotate(-8deg);
 
 `
 export default class Home extends Component {
@@ -21,7 +23,7 @@ export default class Home extends Component {
                             <Homebutton/> 
                         </div>
                         <div className="col">
-                            <Nameweb><img src="/static/images/Asset 2.png"/></Nameweb>
+                            <Nameweb><img src="/static/images/Asset 2.png" width="120%" height="120%"/></Nameweb>
                         </div>
                     </div>
                     

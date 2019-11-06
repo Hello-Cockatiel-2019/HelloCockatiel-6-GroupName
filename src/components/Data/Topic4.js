@@ -6,7 +6,7 @@ export default class Topic4 extends Component {
             <div className="page5">
                 <div className="BoxTop4">
                 <div class="container-fluid">
-                    <h4> ลักษณะนิสัย</h4>
+                <h4> ลักษณะนิสัย</h4>
                     <div class="row">
                         <div class="col-xl-6" ><
                             div className="img-container">

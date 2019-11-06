@@ -128,16 +128,17 @@ opacity:1;
 .home{
     margin: 0px auto 0px auto;
     padding: 100px;
-    padding-right: 50px;
-    padding-left:100px;
+    padding-right: 100px;
+    padding-left:150px;
     background-image: url("/static/images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
-    height: 550px;
+    height: 700px;
     border:'3px' solid#000000;
+    border-radius: 50px;
 }
-.contbtn{
+/*.contbtn{
     position: absolute;
     display: block;
    bottom: 10rem;
@@ -193,12 +194,12 @@ opacity:1;
     top: 20rem;
     opacity: '0';
     cursor: pointer;
-}*/
+}
 .con-container{
     margin: '-100px';
     position: relative;
     
-}
+}*/
 /*.con-container:hover .content1-btn{
     opacity:'0';
 }
