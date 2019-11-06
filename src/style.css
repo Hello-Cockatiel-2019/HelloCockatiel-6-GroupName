@@ -29,12 +29,10 @@ opacity:1;
 .page1{
     margin: 0px;
     padding: 100px;
-    background-image: url("/static/images/B01.jpg");
+    /* background-image: url("/static/images/B01.jpg"); */
     /* width: '1152px';
     height: '678px'; */
     background-color: burlywood;
-    @import url('https://fonts.googleapis.com/css?family=Niramit:500&display=swap');
-    font-family: 'Niramit', sans-serif;
     font-size: 16px;
     
 }
@@ -43,9 +41,8 @@ opacity:1;
     padding: 100px;
     /* width: '1152px';
     height: '678px'; */
-    background-image: url("/static/images/B02.jpg");
-    @import url('https://fonts.googleapis.com/css?family=Niramit:500&display=swap');
-    font-family: 'Niramit', sans-serif;
+    /* background-image: url("/static/images/B02.jpg"); */
+    background-color: burlywood;
     font-size: 16px;
 }
 .page3{
@@ -53,31 +50,27 @@ opacity:1;
     padding: 100px;
     /* width: '1152px';
     height: '678px'; */
-    background-image: url("/static/images/B03.jpg");
-    @import url('https://fonts.googleapis.com/css?family=Niramit:500&display=swap');
-    font-family: 'Niramit', sans-serif;
+    /* background-image: url("/static/images/B03.jpg"); */
+    background-color: burlywood;
     font-size: 16px;
 }
 .page4{
     margin: 0px;
     padding: 100px;
-    background-image: url("/static/images/B04.jpg");
+    /* background-image: url("/static/images/B04.jpg"); */
     background-color: burlywood;
-    @import url('https://fonts.googleapis.com/css?family=Niramit:500&display=swap');
-    font-family: 'Niramit', sans-serif;
     font-size: 16px;
 }
 .page5{
     margin: 0px;
     padding: 100px;
-    background-image: url("/static/images/B05.jpg");
+    /* background-image: url("/static/images/B05.jpg"); */
     background-color: burlywood;
-    @import url('https://fonts.googleapis.com/css?family=Niramit:500&display=swap');
-    font-family: 'Niramit', sans-serif;
     font-size: 16px;
 }
 
 .home{
+    
     margin: 0px auto 0px auto;
     padding: 100px;
     padding-right: 100px;
@@ -85,8 +78,8 @@ opacity:1;
     background-image: url("/static/images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: auto;
-    height: 700px;
+    width: 1152px;
+    height: 678px;
     border:'3px' solid#000000;
     border-radius: 50px;
 }

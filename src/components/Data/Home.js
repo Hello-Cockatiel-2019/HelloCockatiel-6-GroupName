@@ -2,10 +2,12 @@ import React, { Component } from "react";
 import {css } from 'styled-components'
 import Homebutton from '../Buttons/Homebutton';
 import styled from 'styled-components'
+
 const boximg = css `
 background:url("/static/images/B01.jpg") repeat;
 background-size:contain;
 `
+
 const Nameweb = styled.div`
     padding-top:1em;
     -webkit-transform: scaleX(-1);
